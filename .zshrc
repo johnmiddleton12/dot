@@ -28,3 +28,9 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 alias icloud='cd /mnt/c/Users/jpmaw/iCloudDrive/iCloud~dk~simonbs~Scriptable/'
 
 alias nvim="$HOME/nvim/nvim.appimage"
+
+function mkcd
+{
+    dir="$*";
+    mkdir -p "$dir" && cd "$dir";
+}
