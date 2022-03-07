@@ -15,6 +15,8 @@ Plugin 'preservim/nerdcommenter'
 
 Plugin 'wakatime/vim-wakatime'
 
+Plugin 'preservim/nerdtree'
+
 "Plugin 'tomlion/vim-solidity'
 
 "Plugin 'valloric/youcompleteme'

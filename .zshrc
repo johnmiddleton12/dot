@@ -34,3 +34,16 @@ function mkcd
     dir="$*";
     mkdir -p "$dir" && cd "$dir";
 }
+
+alias bravebrowser="/mnt/c/Program\ Files/BraveSoftware/Brave-Browser/Application/brave.exe"
+
+function brave
+{
+    file="$*";
+    if [ ${PWD:0:6} = '/mnt/c' ] 
+    then
+        bravebrowser C:${PWD:6}/$file
+    else
+        echo 'Not in windows file system'
+    fi
+}
