@@ -47,3 +47,9 @@ function brave
         echo 'Not in windows file system'
     fi
 }
+
+function wgoto
+{
+    file="$*";
+    cd "/mnt/c/Users/jpmaw/"$file
+}
