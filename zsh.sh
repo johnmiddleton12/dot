@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # need to install zsh 
+# also install neovim + vundle
 # also ohmyzsh + powerlevel10k
 # also jetbrains mono, and emojis
 # also exa
