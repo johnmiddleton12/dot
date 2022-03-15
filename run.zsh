@@ -17,3 +17,6 @@ ln -s $PWD/.p10k.zsh ~/
 ln -s $PWD/.zshrc ~/
 ln -s $PWD/.tmux.conf ~/
 ln -s $PWD/init.vim ~/.config/nvim/
+
+exec zsh
+chsh

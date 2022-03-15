@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# need to install zsh 
-# also install neovim + vundle
-# also ohmyzsh + powerlevel10k
 # also jetbrains mono, and emojis - nerdfonts jetbrains font
-# also exa
+# also exa - fix exa install, need hard link instead
 
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
