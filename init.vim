@@ -28,8 +28,6 @@ Plugin 'github/copilot.vim'
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'nvim-telescope/telescope.nvim'
 
-Plugin 'github/copilot.vim'
-
 call vundle#end()
 
 filetype plugin indent on
