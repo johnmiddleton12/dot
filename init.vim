@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'christoomey/vim-tmux-navigator'
 
+Plugin 'morhetz/gruvbox'
 Plugin 'doums/darcula'
 
 Plugin 'preservim/nerdcommenter'
@@ -25,6 +26,8 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'nvim-telescope/telescope.nvim'
 
+Plugin 'github/copilot.vim'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -36,6 +39,7 @@ set tabstop=4
 set expandtab
 
 colorscheme darcula
+"colorscheme gruvbox
 
 set number
 
@@ -51,6 +55,8 @@ tnoremap <Esc> <C-\><C-n>
 let mapleader = ","
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+
+nnoremap O O<Esc>
 
 """ COC NVIM BELOW
 set hidden
