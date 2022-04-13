@@ -61,6 +61,9 @@ nnoremap <leader>t :NERDTreeToggle<cr>
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
+" Map ,F to format using prettier
+nnoremap <leader>F :<C-u>CocCommand prettier.formatFile<cr>
+"nnoremap <leader>do <Plug>(coc-codeaction)
 
 nnoremap O O<Esc>
 
