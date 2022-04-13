@@ -56,3 +56,5 @@ function wgoto
     file="$*";
     cd "/mnt/c/Users/jpmaw/"$file
 }
+
+. $HOME/dot/z.sh
