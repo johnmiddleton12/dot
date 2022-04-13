@@ -24,8 +24,6 @@ Plugin 'preservim/nerdtree'
 "Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
-"Plugin 'begbaj/vim-icue'
-
 Plugin 'github/copilot.vim'
 
 Plugin 'nvim-lua/plenary.nvim'
