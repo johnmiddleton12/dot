@@ -7,25 +7,30 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+" Navigating between tmux & vim panes
 Plugin 'christoomey/vim-tmux-navigator'
 
-Plugin 'morhetz/gruvbox'
+" JetBrains Theme
 Plugin 'doums/darcula'
 
-Plugin 'preservim/nerdcommenter'
-
+" Track time in editor
 Plugin 'wakatime/vim-wakatime'
 
+" Easier commenting
+Plugin 'preservim/nerdcommenter'
+
+" File tree viewer
 Plugin 'preservim/nerdtree'
 
-"Plugin 'tomlion/vim-solidity'
-
+" LSPs
 "Plugin 'valloric/youcompleteme'
 "Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
+" Copilot
 Plugin 'github/copilot.vim'
 
+" Fuzzy Finder
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'nvim-telescope/telescope.nvim'
 
@@ -40,7 +45,6 @@ set tabstop=4
 set expandtab
 
 colorscheme darcula
-"colorscheme gruvbox
 
 set number
 
