@@ -14,50 +14,9 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-#alias ll='ls -alF'
-#alias la='ls -A'
-#alias l='ls -CF'
-alias ls='exa --icons'
-alias la='exa --icons -a'
-alias ll='exa --long -a --icons'
+alias vi="nvim"
 
-alias uva='cd /mnt/c/Users/jpmaw/OneDrive\ -\ University\ Of\ Virginia/CS2150'
-
-#alias vi='vim'
-alias vi="$HOME/nvim/nvim.appimage"
-
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-alias icloud='cd /mnt/c/Users/jpmaw/iCloudDrive/iCloud~dk~simonbs~Scriptable/'
-
-alias nvim="$HOME/nvim/nvim.appimage"
-
-function mkcd
-{
-    dir="$*";
-    mkdir -p "$dir" && cd "$dir";
-}
-
-alias bravebrowser="/mnt/c/Program\ Files/BraveSoftware/Brave-Browser/Application/brave.exe"
-
-function brave
-{
-    file="$*";
-    if [ ${PWD:0:6} = '/mnt/c' ] 
-    then
-        bravebrowser C:${PWD:6}/$file
-    else
-        echo 'Not in windows file system'
-    fi
-}
-
-function wgoto
-{
-    file="$*";
-    cd "/mnt/c/Users/jpmaw/"$file
-}
-
-. $HOME/dot/z.sh
+#. $HOME/dot/z.sh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
